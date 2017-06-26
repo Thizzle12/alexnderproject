@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textEmailAddress"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/username"
+        android:textColorHint="@color/black"
+        android:id="@+id/username"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/password"
+        android:textColorHint="@color/black"
+        android:id="@+id/password1"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:hint="@string/confirm_password"
+        android:textColorHint="@color/black"
+        android:id="@+id/confirm_password1"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageButton
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:background="@drawable/roundbutton"
+        android:layout_height="100dp"
+        android:text="@string/confirm"
+        android:id="@+id/confirm"
+        android:src="@drawable/success"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
